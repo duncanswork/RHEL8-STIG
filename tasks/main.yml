@@ -165,6 +165,8 @@
 
 - name: flush handlers
   ansible.builtin.meta: flush_handlers
+  tags:
+      - handlers
 
 - name: reboot system
   block:
