@@ -168,6 +168,7 @@
       - CAT1
       - CAT2
       - CAT3
+      - Handler
 
 - name: reboot system if changes require it and not skipped
   ansible.builtin.reboot:
